@@ -51,6 +51,7 @@ p{
     --dark_discord : #23272a;
     --backround_section: #d3d3d3;
     --main_button: #8ea1e1;
+    --title_footer: #7289da;
     --xl_column_footer: #f08080;
     --sm_column_footer: #20b2aa;
     --button_footer: #ffb6c1;
@@ -165,6 +166,7 @@ li{
     padding-top: 5rem;
     width: 1000px;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .download_main{
@@ -177,6 +179,9 @@ h3{
     font-weight: 800;
     display: block;
     padding: 2rem;
+}
+
+.download_main > h3{
     background-image: url(../img/stars.svg);
     background-size: cover;
 }
@@ -191,17 +196,30 @@ h3{
     background-color: var(--dark_discord);
 }
 
-.footer{
+.nav_footer{
     justify-content: center;
+    color: white;
     border-bottom: 2px solid grey;
 }
 
-.xl_footer{
-    background-color: var(--xl_column_footer);
-    border: 2px dashed black;
-    min-width: 50px;
-    min-height: 500px;
+.large_footer{
+    max-width: 400px;
     flex-basis: 30%;
+}
+
+.title_footer{
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--title_footer);
+}
+
+.flag{
+    width: 2rem;
+}
+
+.social{
+    padding: 1rem;
 }
 
 .sm_foote{
