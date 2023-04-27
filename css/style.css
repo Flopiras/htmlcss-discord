@@ -52,10 +52,6 @@ p{
     --backround_section: #d3d3d3;
     --main_button: #8ea1e1;
     --title_footer: #7289da;
-    --xl_column_footer: #f08080;
-    --sm_column_footer: #20b2aa;
-    --button_footer: #ffb6c1;
-    --nav_footer: #7fffd4;
 }
 
 /* header */
@@ -78,7 +74,7 @@ header{
     margin-bottom: 5rem;
 }
 
-.logo_banner{
+.logo{
     width: 20%;
 }
 
@@ -142,14 +138,12 @@ li{
 }
 
 .large_column{
-    background-color: var(--large_column);
     background-size: cover;
     flex-basis: 70%;
     max-width: 1000px;
 }
 
 .small_column{
-    background-color: var(--small-column);
     flex-basis: 30%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -192,6 +186,9 @@ h3{
 }
 
 /* footer */
+footer{
+    font-size: 1.1rem;
+}
 .nav_footer, .bottom_footer{
     background-color: var(--dark_discord);
 }
@@ -199,7 +196,7 @@ h3{
 .nav_footer{
     justify-content: center;
     color: white;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid var(--title_footer);
 }
 
 .large_footer{
@@ -226,26 +223,31 @@ h3{
     flex-basis: 70%;
 }
 
-.small_column_footer{
-    background-color: var(--sm_column_footer);
-    border: 2px dashed black;
+.small_footer{
     min-width: 200px;
     min-height: 500px;
 }
 
-.container_footer{
-    background-color: var(--nav_footer);
-    justify-content: space-between;
-    min-height: 50px;
-    align-items: center;
+.product, .company, .resources, .norms{
+    flex-direction: column;
+    align-content: space-around;
 }
 
-.logo_footer , .button_footer{
-    background-color: var(--button_footer);
-    border: 2px dashed black;
-    padding: 5px;
+li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
+
+.container_footer{
+    min-height: 50px;
+    justify-content: space-between;
+}
+
+.register{
+    background-color: var(--main_button);
+    color: white;
 }
 
 .bottom_footer{
-    padding: 10px 100px;
+    padding: 2rem 100px;
 }
