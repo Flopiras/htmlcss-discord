@@ -19,7 +19,6 @@ a{
 }
 
 h1{
-    margin-bottom: 3rem;
     font-size: 4rem;
 }
 
@@ -27,10 +26,19 @@ h2{
     font-size: 3rem;
 }
 
+p{
+    padding-top: 2rem;
+}
+
 .button{
     border-radius: 30px;
     padding: 1rem 1.5rem;
     margin: 20px;
+}
+
+svg{
+    display: block;
+
 }
 
 /* root */
@@ -51,19 +59,18 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
+
 li > a{
     color: white;
 }
 
 header{
     background-color: var(--background_banner);
-}
-
-.banner{
-    min-height: 100px;
-    margin: 0 auto;
-    max-width: 1200px;
+    margin-bottom: 5rem;
 }
 
 .logo_banner{
@@ -102,11 +109,9 @@ li{
     font-weight: bold;
 }
 
-
 .download{
     margin-top: 3rem;
 }
-
 
 .mac_download{
     background-color: white;
@@ -124,9 +129,11 @@ li{
 }
 
 .section{
-    padding: 50px;
+    padding: 5rem;
     justify-content: center;
     align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .large_column{
@@ -140,15 +147,14 @@ li{
     background-color: var(--small-column);
     flex-basis: 30%;
     padding-left: 2rem;
-    width: 500px;
+    padding-right: 2rem;
+    min-width: 400px;
 }
 
 .main_section{
-    min-height: 800px;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+
 }
 
 .green_block{
