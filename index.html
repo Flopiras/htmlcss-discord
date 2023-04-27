@@ -14,10 +14,10 @@
 
         <!-- header with banner and jumbotron -->
         <header>
-            <div class="banner flex_banner">
+            <div class="flex banner">
                 <div class="logo_banner"><img src="img/logo.svg" alt="Logo Discord"></div>
                 <nav class="link_banner">
-                    <ul class="flex_banner">
+                    <ul class="flex banner">
                         <li><a href="#">Scarica</a></li>
                         <li><a href="#">Perchè Discord</a></li>
                         <li><a href="#">Nitro</a></li>
@@ -25,14 +25,18 @@
                         <li><a href="#">Assistenza</a></li>
                     </ul>
                 </nav>
-                <div class="login_banner"><a href="#">Login</a></div>
+                <div class="login_banner"><a class="button" href="#">Login</a></div>
             </div>
-            <div class="jumbotron_container_flex">
-                <div class="jumbotron">
+            <div class="jumbotron flex">
+                <div class="jumbotron_content">
                     <h1>Il tuo posto per parlare</h1>
                     <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
                         semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende
                         più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+                    <div class="download">
+                        <a class="button mac_download" href="#">&#129067; Scarica per Mac </a>
+                        <a class="button open_browser" href="#">Apri Discord nel tuo browser</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -40,34 +44,38 @@
         <main>
             <!-- section (large + small column)x3 -->
             <div class="main_section">
-                <section class="section_flex">
-                    <div class="large_column"></div>
-                    <div class="small_column"></div>
+                <section class="section flex">
+                    <div class="large_column"><img src="img/item1.svg" alt="Study-group"></div>
+                    <div class="small_column">
+                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                            semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+                    </div>
                 </section>
             </div>
             <div class="main_section">
-                <section class="section_flex">
+                <section class="section flex">
                     <div class="small_column"></div>
                     <div class="large_column"></div>
                 </section>
             </div>
             <div class="main_section">
-                <section class="section_flex">
+                <section class="section flex">
                     <div class="large_column"></div>
                     <div class="small_column"></div>
                 </section>
             </div>
 
             <!-- div -->
-            <div class="main_section main_flex">
+            <div class="main_section flex">
                 <div class="green_block"></div>
             </div>
         </main>
         <footer>
             <!-- flexbox large + 4 small column -->
-            <div class="nav_footer footer_flex">
+            <div class="nav_footer flex">
                 <div class="xl_footer"></div>
-                <div class="sm_footer footer_flex">
+                <div class="sm_footer flex">
                     <div class="small_column_footer"></div>
                     <div class="small_column_footer"></div>
                     <div class="small_column_footer"></div>
@@ -78,7 +86,7 @@
 
             <!-- footer -->
             <div class="bottom_footer">
-                <div class="container_footer_flex">
+                <div class="container_footer flex">
                     <div class="logo_footer">logo</div>
                     <div class="button_footer">bottone</div>
                 </div>
