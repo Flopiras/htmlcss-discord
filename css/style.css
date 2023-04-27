@@ -36,9 +36,13 @@ p{
     margin: 20px;
 }
 
-svg{
+.wave{
     display: block;
+    color: #d3d3d3;
+}
 
+.upside_down{
+    rotate: 0.5turn;
 }
 
 /* root */
