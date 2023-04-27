@@ -50,7 +50,7 @@ p{
     --background_banner : #255ee9;
     --dark_discord : #23272a;
     --backround_section: #d3d3d3;
-    --large_div: #228b22;
+    --main_button: #8ea1e1;
     --xl_column_footer: #f08080;
     --sm_column_footer: #20b2aa;
     --button_footer: #ffb6c1;
@@ -161,11 +161,29 @@ li{
 
 }
 
-.green_block{
-    background-color: var(--large_div);
-    min-height: 750px;
+.main_block{
+    padding-top: 5rem;
     width: 1000px;
-    border: 2px dashed black;
+    text-align: center;
+}
+
+.download_main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+    padding: 2rem;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+
+.button_main > .button{
+    background-color: var(--main_button);
+    color: white;
 }
 
 /* footer */
