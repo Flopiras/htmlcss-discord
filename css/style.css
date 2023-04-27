@@ -18,6 +18,15 @@ a{
     display: flex;
 }
 
+h1{
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
 .button{
     border-radius: 30px;
     padding: 1rem 1.5rem;
@@ -89,12 +98,10 @@ li{
 .jumbotron_content{
     color: white;
     text-align: center;
-    max-width: 900px;
+    max-width: 850px;
+    font-weight: bold;
 }
 
-h1{
-    margin-bottom: 3rem;
-}
 
 .download{
     margin-top: 3rem;
@@ -124,22 +131,24 @@ h1{
 
 .large_column{
     background-color: var(--large_column);
+    background-size: cover;
     flex-basis: 70%;
     max-width: 1000px;
-    border: 2px dashed black;
 }
 
 .small_column{
     background-color: var(--small-column);
     flex-basis: 30%;
-    border: 2px dashed black;
+    padding-left: 2rem;
+    width: 500px;
 }
 
 .main_section{
-    display: flex;
     min-height: 800px;
     align-items: center;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .green_block{
